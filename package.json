@@ -1,10 +1,11 @@
 {
+    "type": "module",
     "name": "javascript-chess-engine",
     "version": "1.0.0",
     "description": "A JavaScript chess engine written to beat its master",
     "main": "index.js",
     "scripts": {
-        "start": "http-server ./"
+        "start": "http-server ./ -o ./src/ui/index.html"
     },
     "repository": {
         "type": "git",
@@ -25,6 +26,7 @@
     "devDependencies": {
         "eslint": "^6.8.0",
         "eslint-config-prettier": "^6.10.0",
-        "eslint-plugin-prettier": "^3.1.2"
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^1.19.1"
     }
 }
